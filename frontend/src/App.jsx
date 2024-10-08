@@ -21,7 +21,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="*" element={isLogged?<Nopage />:<Navigate to='/login'/>} />
-        <Route path="/createdocs/:docsid" element={isLogged?<Createdoc />:<Navigate to='/login'/>} />
+        <Route path="/createdocs/:docsid" element={<Createdoc />} />
       </Routes>
     </BrowserRouter>
   )
