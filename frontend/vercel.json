@@ -1,28 +1,5 @@
 {
-    "routes":[
-        {
-            "src":"/",
-            "dest":"/"
-        },
-        {
-            "src":"/home",
-            "dest":"/"
-        },
-        {
-            "src":"/about",
-            "dest":"/"
-        },
-        {
-            "src":"/signup",
-            "dest":"/"
-        },
-        {
-            "src":"/login",
-            "dest":"/"
-        },
-        {
-            "src":"/createdocs/:docsid",
-            "dest":"/"
-        }
+    "rewrites": [
+        {"source": "/(.*)", "destination": "/"}
     ]
 }
