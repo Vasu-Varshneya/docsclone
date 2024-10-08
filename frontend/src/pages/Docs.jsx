@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import docsicon from '../images/docsicon.png'
+import docsicon from '../images/docsIcon.png'
 import { MdDelete, MdCancel } from "react-icons/md";
 import deleteimg from "../images/delete.png"
 import { api_based_url } from '../Helper';
