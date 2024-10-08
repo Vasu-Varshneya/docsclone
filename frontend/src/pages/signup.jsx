@@ -90,7 +90,7 @@ const signup = () => {
                 </div>
               </div>
               <p>Already have an account? <Link  to='/login'><span className='text-blue-500'>Login</span></Link></p>
-              <button className='bg-zinc-500 hover:bg-zinc-600 h-10 w-[210px] mt-2'><span className='font-bold'>Sign Up</span></button>
+              <button className='bg-zinc-500 hover:bg-zinc-600 h-10 w-[210px] mt-2'><Link to={'/login'}>SignUp</Link></button>
             </form>
           </div>
           <div className='right  '>
