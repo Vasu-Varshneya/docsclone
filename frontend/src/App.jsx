@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<About />} />
-        <Route path="/home" element={isLogged?<Home/>:<Navigate to='/login'/> } />
+        <Route path="/home" element={<Home/> } />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="*" element={isLogged?<Nopage />:<Navigate to='/login'/>} />
