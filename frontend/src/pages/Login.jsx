@@ -69,7 +69,7 @@ const Login = () => {
               <p className='text-red-500 text-[14px] my-2'>{error}</p>
               <p>Do not have an account? <Link to='/signup'><span className='text-blue-500'>Signup</span></Link></p>
               <button onClick={()=>{handleclick}} className='bg-zinc-500 hover:bg-zinc-600 h-10 w-[210px] mt-2'>
-                <span className='font-bold'>Login</span></button>
+                <Link to="/home">Login</Link></button>
             </form>
           </div>
           <div className='right  '>
