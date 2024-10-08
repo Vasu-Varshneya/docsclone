@@ -1,1 +1,1 @@
-export const api_based_url = "http://localhost:3001"
+export const api_based_url = "https://docsclone-z1v5.onrender.com"
