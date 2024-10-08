@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-mongoose.connect('mongodb://localhost:27017/docs')
+mongoose.connect('mongodb+srv://vasuvarshney26:Vfck93ZrLXTfAr1M@cluster0.p91z5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 const docSchema = new mongoose.Schema({
     title:String,
     uploadedBy:String,
